@@ -61,6 +61,7 @@
 - The vscode method basically boil down to using the `STM32CubeMX` for code and makefile generation, `openocd` for flashing and `vscode` for editing
 - But it requires lots of plugins and setup to work, especially for the stlink debugger function (search `stm32 cortex debug` for more details)
 - Also it's easier to setup on linux/mac than window as they have native C/C++ compiler
-- Here're 2 videos for basic setup
-    - [Dev Env setup video](https://www.youtube.com/watch?v=-p26X8lTAvo)
+- Here're 3 videos for basic setup
+    - [STM32 toolchain for Windows - Part 1](https://www.youtube.com/watch?v=PxQw5_7yI8Q)
+    - [Visual Studio Code for STM32 development and debugging - Part 2](https://www.youtube.com/watch?v=xaC5oWwzOt0)
     - [VSCode intellisense and make setup](https://www.youtube.com/watch?v=jcy5TpbXfAY)
