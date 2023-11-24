@@ -1,2 +1,7 @@
 *.exe
 *.url
+.direnv
+.vscode
+node_modules
+package-lock.json
+package.json
