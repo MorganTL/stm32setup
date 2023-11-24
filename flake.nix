@@ -22,7 +22,7 @@
       };
 
       packages.default = pkgs.writeScriptBin "makeslide" ''
-        markdown-to-slides slide.md -s blue_standard.css -o slideshow.html
+        markdown-to-slides slide.md -s blue_standard.css -o index.html
       '';
     }
   );
