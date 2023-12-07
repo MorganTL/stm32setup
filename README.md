@@ -66,3 +66,9 @@
     - [STM32 toolchain for Windows - Part 1](https://www.youtube.com/watch?v=PxQw5_7yI8Q)
     - [Visual Studio Code for STM32 development and debugging - Part 2](https://www.youtube.com/watch?v=xaC5oWwzOt0)
     - [VSCode intellisense and make setup](https://www.youtube.com/watch?v=jcy5TpbXfAY)
+
+## Building the slides
+```bash
+nix develop
+markdown-to-slides slide.md -s blue_standard.css -o index.html
+```
