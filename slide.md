@@ -29,7 +29,7 @@ class: title
 ## Controller selection
 
 
-### MCU: stm32 G4x4 series 
+### MCU: STM32 with HRTIM
 - E.g. NUCLEO-G474RE (Mouser HK$132.10)
 - In C/C++ or embedded-Rust
 - Easier to learn but hard to be timing accurate
