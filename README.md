@@ -58,8 +58,8 @@
 - [G474 Code examples](https://github.com/STMicroelectronics/STM32CubeG4/tree/master/Projects/NUCLEO-G474RE/Examples)
 
 
-## If you hate the UI and want to use VScode instead
-- The vscode method basically boil down to using the `STM32CubeMX` for code and makefile generation, `openocd` for flashing and `vscode` for editing
+## If you prefer using other editors
+- This method basically boil down to using the `STM32CubeMX` for code and makefile generation, `openocd` for flashing and your prefered editor (e.g. VScode) for programming
 - But it requires lots of plugins and setup to work, especially for the stlink debugger function (search `stm32 cortex debug` for more details)
 - Also it's easier to setup on linux/mac than window as they have native C/C++ compiler
 - Here're 3 videos for basic setup
