@@ -60,7 +60,7 @@ class: title
 ## STM32 hardware
 ### ADC
 - 5 ADCs but some pins are shared with other IOs 
-- 12bit@60MHz, minium sampling cycle = 2.5 CLK cycle 
+- 12bit@4MSa/s, minium sampling cycle = 2.5 CLK cycle 
 - usually 3.3V (check datasheet for other variants)
 - Can use DMA (Direct memory access) without wasting processor time
 
@@ -70,7 +70,7 @@ class: title
 ## STM32 hardware 
 ### HRTIM
 - 6 channels with 2 outputs each
-- 184 ps resolution
+- 184 ps resolution, up to GHz range
 - Arbitrary PWM generator
 
 .center[.image-small[![simo](img/slide_simo.png)]]
